@@ -38,7 +38,7 @@ cliphist                                               # clipboard manager
 hyprsunset                                             # blue light filter
 
 # --------------------------------------------------- // Dependencies
-polkit-gnome                                           # authentication agent
+## polkit-gnome                                           # authentication agent
 xdg-desktop-portal-hyprland                            # xdg desktop portal for hyprland
 xdg-desktop-portal-gtk                                 # file picker and dbus  integration
 xdg-user-dirs                                          # Manage user directories like ~/Desktop and ~/Music
@@ -51,6 +51,7 @@ ffmpegthumbs                                           # for dolphin video thumb
 kde-cli-tools                                          # for dolphin file type defaults
 libnotify                                              # for notifications
 noto-fonts-emoji                                       # emoji font
+nerd-fonts
 
 # --------------------------------------------------- // Theming
 nwg-look                                               # gtk configuration tool
@@ -62,23 +63,27 @@ qt5-wayland                                            # wayland support in qt5
 qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
-firefox                                                # browser
+## firefox                                                # browser
+floorp
 kitty                                                  # terminal
 dolphin                                                # kde file manager
 ark                                                    # kde file archiver
 unzip                                                  # extracting zip files
 vim                                                    # terminal text editor
-code                                                   # ide text editor
+## code                                                   # ide text editor
+vscodium-bin
+vscodium-bin-marketplace
 nwg-displays                                           # monitor management utility
 fzf                                                    # Command-line fuzzy finder
 
 # --------------------------------------------------- // Shell
-eza|zsh                                                # file lister for zsh
-zsh-theme-powerlevel10k-git|zsh                        # Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
-starship|zsh                                           # customizable shell prompt written in Rust
+## eza|zsh                                                # file lister for zsh
+## zsh-theme-powerlevel10k-git|zsh                        # Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
+## starship|zsh                                           # customizable shell prompt written in Rust
 # starship-git                                         # The cross-shell prompt for astronauts  
-eza|fish                                               # file lister for fish
-starship|fish                                          # customizable shell prompt
+eza
+fish                                               # file lister for fish
+## starship|fish                                          # customizable shell prompt
 fastfetch                                              # system information fetch tool
 
 # --------------------------------------------------- // HyDE
